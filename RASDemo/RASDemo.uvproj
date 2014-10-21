@@ -44,7 +44,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>RASDemo</OutputName>
+          <OutputName>Robotathon</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -136,6 +136,7 @@
             <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
             <RestoreFunctions>0</RestoreFunctions>
             <RestoreToolbox>1</RestoreToolbox>
+            <RestoreTracepoints>0</RestoreTracepoints>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>4</TargetSelection>
@@ -164,6 +165,7 @@
             <Capability>1</Capability>
             <DriverSelection>4097</DriverSelection>
           </Flash1>
+          <bUseTDR>1</bUseTDR>
           <Flash2>BIN\lmidk-agdi.dll</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
@@ -391,59 +393,14 @@
           <GroupName>Source</GroupName>
           <Files>
             <File>
-              <FileName>EncoderDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\EncoderDemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>IRSensorDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\IRSensorDemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>Main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Main.c</FilePath>
-            </File>
-            <File>
-              <FileName>MotorDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\MotorDemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>ServoDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\ServoDemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>UARTDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\UARTDemo.c</FilePath>
-            </File>
-            <File>
               <FileName>Startup.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Startup.c</FilePath>
             </File>
             <File>
-              <FileName>GPIODemo.c</FileName>
+              <FileName>robotathon.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\GPIODemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>SonarDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\SonarDemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>GPIOLineSensorDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\GPIOLineSensorDemo.c</FilePath>
-            </File>
-            <File>
-              <FileName>I2CLineSensorDemo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\I2CLineSensorDemo.c</FilePath>
+              <FilePath>.\robotathon.c</FilePath>
             </File>
           </Files>
         </Group>
