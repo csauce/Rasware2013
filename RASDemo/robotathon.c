@@ -9,7 +9,7 @@
 
 #define leftPos 0
 #define frontPos 0
-
+//new comment
 //Right now we are just doing the wall following code - Chris Sauceda 10/24/2014 7:56 PM
 //2 IR sensors will be needed (for addressing the corners of course)
 static tADC *adc;
