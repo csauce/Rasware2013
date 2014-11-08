@@ -85,6 +85,5 @@ int main(void)
 				SetMotor(motors[0], 0.5);
 			}
 		}
-	
 }
 
